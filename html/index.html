@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de Lucas Bonfim</title>
+    <link rel="shortcut icon" type="imagex/png" href="/imagens/icone.jpg">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="https://www.youtube.com/watch?v=Z5ewUxfAZps&ab_channel=Rvidxrsodope"><img src="/imagens/logo lucas.png" class="imagemcabecalho"></a>
+        <div class="coca">
+        <ul class="lista" id="lista1">
+            <a href="https://github.com/BonfimLucas"><li class="fanta" id="lista1">GITHUB</li></a> 
+            <a href="https://www.linkedin.com/in/lucas-bonfim-8a29b922b/"><li class="fanta1" id="lista1">LINKEDIN</li></a>
+            <a href="https://www.instagram.com/lucasbonfimzz/"><li class="fanta2" id="lista1">INSTAGRAM</li></a>
+        </ul>
+    </div>
+    </header>
+    <main class="conteudo">
+        <div id="fotos">
+        <a href="https://www.youtube.com/watch?v=k1W568sBcNw&ab_channel=Bones-Topic"><img src="/imagens/foto lucas.jpg" class="lucas" id="luquera" onclick="mouse()"></a>
+        <a href="https://www.youtube.com/watch?v=XgfcGlHSFEc&ab_channel=Sick"><img src="/imagens/lucas1.jpg" class="lucas1" id="luquera"></a>
+        <a href="https://www.youtube.com/watch?v=WwtK2Zakmng&ab_channel=TeamSESH"><img src="/imagens/lucas2.jpg" class="lucas2" id="luquera"></a>
+        </div>
+        <h1 class="nome" id="bonfim">LUCAS BONFIM</h1>
+        <h4 class="sou" id="estudante">Prazer, sou o Lucas Bonfim, estudante de Analise e Desenvolvimento de Sistemas na universidade Nove de Julho.
+            Logo acima estão as minhas redes sociais e você poderá me contatar em cada uma delas caso queira. Seria um enorme prazer conhece-lo.
+            :)
+        </h4>
+        
+        <script>
+            function typeWriter(elemento) {
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+      setTimeout(() => elemento.innerHTML += letra, 75 * i);
+    });
+  }
+
+  const estudante = document.querySelector('h4');
+  typeWriter(estudante);
+
+
+
+  function typeWriter(elemento) {
+    const textoArray = elemento.innerHTML.split('');
+    elemento.innerHTML = '';
+    textoArray.forEach((letra, i) => {
+      setTimeout(() => elemento.innerHTML += letra, 75 * i);
+    });
+  }
+
+  const  nome = document.querySelector('h1');
+  typeWriter(nome);
+
+
+        </script>
+
+    </main>
+</body>
+</html>

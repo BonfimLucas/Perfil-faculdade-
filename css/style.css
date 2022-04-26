@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+}
+
+.cabecalho{
+    background-color: rgba(41, 40, 40, 0.877);
+    height: 100px;
+    width: 100%;
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    min-width: 320px;
+    max-width: 5000px;
+   
+        
+}
+
+.imagemcabecalho{
+    height: 115px;
+    width: 115px;
+    padding: 1px;
+    margin-left: 30px;
+    padding: -20px;
+    
+}
+
+.coca{
+    margin-left: 1100px;
+    margin-top: 0px;
+    display: flex;
+}
+
+.lista{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 15%;
+    width: 100%;
+    
+}
+
+#lista1:hover{
+    background-color: white;
+    transition: 1s all;
+}
+
+.fanta{
+    margin-right: -40px;
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    background-color: rgb(51, 50, 50);
+    border-radius: 20px;
+    border: 1px solid  rgb(51, 50, 50);
+    padding: 10px;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+    
+}
+    .fanta:hover{
+        transform: scale(1.15);
+  transition: 0.5s;
+    }
+
+
+.fanta1{
+    margin-right: -40px;
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    background-color: rgb(51, 50, 50);
+    border-radius: 20px;
+    border: 1px solid  rgb(51, 50, 50);
+    padding: 10px;
+    box-shadow: 0 0 1em rgb(0, 0, 0)
+
+}
+
+.fanta1:hover{
+    transform: scale(1.15);
+  transition: 0.5s;
+}
+
+.fanta2{
+    margin-right: -40px;
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    background-color: rgb(51, 50, 50);
+    border-radius: 20px;
+    border: 1px solid  rgb(51, 50, 50);
+    padding: 10px;
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+.fanta2:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.conteudo{
+    border-top: 0.4px solid rgb(107, 107, 107);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#fotos{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.lucas{
+    display: flex;
+   height: 255px;
+   width: 230px;
+   padding: 10px;
+   margin-left: 648px;
+   margin-right: 110px;
+   border-radius: 50%;
+   margin-top: 20px;
+   align-content: center;
+  object-fit: cover;
+   
+}
+
+.lucas:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+  }
+
+.lucas1{
+    display: flex;
+    height: 255px;
+    width: 230px;
+    padding: 10px;
+    margin-left: -85px;
+    margin-right: -102px;
+    border-radius: 50%;
+    margin-top: 20px;
+    align-content: center;
+   object-fit: cover;
+}
+
+.lucas1:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+  
+}
+
+.lucas2{
+    display: flex;
+    height: 255px;
+    width: 230px;
+    padding: 10px;
+    margin-left: -695px;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    align-content: center;
+   object-fit: cover;
+}
+
+.lucas2:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+
+}
+
+#luquera{
+    box-shadow: 0 0 1em rgb(0, 0, 0);
+    padding: auto;
+}
+
+
+
+.nome{
+    padding: 0px;
+    text-align: center;
+    margin-top: 27px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.nome:hover{
+  transform: scale(1.15);
+  transition: 0.5s;
+}
+
+.sou{
+    
+    text-align: center;
+   width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+
+.sou:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+#bonfim{
+    font-family: 'Oswald', sans-serif;
+	display: flex;
+	flex-direction: column;
+	max-width: 425px;
+	background-color: rgb(45, 45, 45);
+	border-radius: 10px;
+	padding: 0%;
+    color: rgb(208, 208, 208);
+    border: 15px solid rgb(45, 45, 45);
+    box-shadow: 0 0 1em black;
+
+}
+
+#estudante{
+    font-size: small;
+    font-family: 'Oswald', sans-serif;
+	display: flex;
+	flex-direction: column;
+	max-width: 425px;
+	background-color: rgb(45, 45, 45);
+	border-radius: 10px;
+	padding: 0%;
+    color: rgb(208, 208, 208);
+    border: 15px solid rgb(45, 45, 45);
+    box-shadow: 0 0 1em black;
+
+}
